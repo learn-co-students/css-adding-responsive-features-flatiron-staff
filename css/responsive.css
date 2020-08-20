@@ -41,4 +41,18 @@
     
 @media only screen and (max-width: 700px) {
     #logo h2 { visibility: hidden; }
+
+    #navbar nav a {
+        display: none;
+    }
+
+    #navbar nav a.menu-icon {
+        display: block;
+        float: right;
+        font-size: 1.5em;
+        padding: 10px 20px;
+        width: auto;
+      }
+    #social { top: 60px; }
+    #logo { padding: 60px 0 0; }
 }
